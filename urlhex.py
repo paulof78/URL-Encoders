@@ -1,5 +1,4 @@
 import sys
-import binascii
 
 def usage():
         print('Usage: python3 urlhex.py "<script>alert(888)</script>"')
@@ -28,4 +27,3 @@ for i in range (int(max)):
 	print(hexArray[i], end ="")
 
 print("")
-
